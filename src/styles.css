@@ -1,7 +1,8 @@
 
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #272044;
+    font-family: 'Plus Jakarta Sans',
+        sans-serif;
+    background-color:  #13547a;
 }
 
 .container{
@@ -72,21 +73,25 @@ grid-gap:0;
     letter-spacing: 5px;
     text-transform: uppercase;
     padding: 16px;
-    background-color: #272044;
+    background-color: #13547a ;
     text-decoration: none;
+   
 }
 
+.gallery-text{
+    padding-bottom: 20px;
+}
 section{
     max-width: 100%;
     margin: 0 auto;
     padding:100px;
 }
 section.secondary{
-   background-color:#fff8f8; 
+   background-color:#eaf6fd; 
 }
 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../imgs/Hero.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imgs/Hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -120,7 +125,7 @@ header h3{
 header a {
     font-weight: 700;
     font-size: 14px;
-    color: #000;
+    color: #13547a;
     padding: 16px 32px;
     margin-top: 32px;
     display: inline-block;
@@ -129,6 +134,7 @@ header a {
     letter-spacing: 3px;
     text-transform: uppercase;
     background: #fff;
+    border-radius: 5px;
 }
 
 main{
@@ -139,10 +145,10 @@ main h2{
 font-weight: 700;
 font-size: 16px;
 line-height: 1.5px;
-margin:0;
+margin-bottom:10px;
 letter-spacing: 5px;
-color: #272044;
-opacity: 0.3;
+color: #13547a;
+opacity: 0.6;
 text-transform: uppercase;
 
 }
@@ -151,7 +157,7 @@ font-weight: 700;
 font-size: 40px;
 line-height: 1.5;
 margin: 0;
-color: #272044;
+color: #13547a;
 
 }
 
@@ -160,7 +166,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16;
 line-height: 1.5;
-color: #272044;
+color: #13547a;
 opacity: 0.7;
 }
 
@@ -168,7 +174,7 @@ main h4 {
     font-weight: 700;
     font-size: 24px;
     line-height: 1;
-    color: #272044;
+    color: #13547a;
     margin: 0;
 
 }
@@ -177,7 +183,7 @@ main h5 {
     font-weight: 700;
     font-size: 13px;
     line-height: 1;
-    color: #272044;
+    color: #13547a;
     margin: 0;
 
 }
@@ -185,7 +191,7 @@ main h5 {
 
 footer{
     color: #fff;
-    background-image: linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8)), url("../imgs/img2.jpg");
+    background-image: linear-gradient(rgba(19, 84, 122, 0.4), rgba(19, 84, 122, 0.8)), url("../imgs/img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -250,4 +256,5 @@ footer a{
     }
     .embed{
         aspect-ratio: 16/9;
+    }
 }
